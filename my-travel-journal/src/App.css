@@ -11,3 +11,22 @@ img {
   margin-left: 23rem;
   color: white;
 }
+main img {
+  width: 12rem;
+  border-radius: 2rem;
+  height: 14rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.japan {
+  display: flex;
+}
+.Australia {
+  display: flex;
+}
+.Norway {
+  display: flex;
+}
