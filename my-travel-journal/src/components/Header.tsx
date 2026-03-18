@@ -1,4 +1,4 @@
-import Path from "./src/assets/Path.png";
+import Path from "../assets/Path.png";
 export function Headers() {
   return (
     <>

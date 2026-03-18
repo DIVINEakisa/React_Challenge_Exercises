@@ -2,14 +2,15 @@ nav {
   background-color: red;
   width: 100%;
   height: 55px;
-  top: 0px;
   display: flex;
   align-items: center;
-}
-nav span,
-nav img {
-  margin-left: 23rem;
+  gap: 10px;
   color: white;
+  justify-content: center;
+}
+nav img {
+  width: 40px;
+  height: auto;
 }
 main img {
   width: 12rem;
