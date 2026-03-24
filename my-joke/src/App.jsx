@@ -1,9 +1,9 @@
-import { Progressbar } from "./Components/progressBar";
+import Progressbar from "./Components/ProgressBar";
 
 function App() {
   return (
     <>
-      <Progressbar />
+      <Progressbar title="Progress Bar" />
     </>
   );
 }
