@@ -30,7 +30,7 @@ export default function MaxCount() {
         </p>
         <button
           onClick={() => setCount((prev) => prev + 1)}
-          style={{ textAlign: "center", marginLeft: "8rem" }}
+          style={{ textAlign: "center", marginLeft: "16rem" }}
           disabled={time === 0}
         >
           +
