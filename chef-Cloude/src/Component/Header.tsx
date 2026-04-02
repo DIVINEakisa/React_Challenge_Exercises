@@ -1,4 +1,8 @@
+import { useState } from "react";
+function handleIngredients() {}
 export function Header(props) {
+  const [ingredients, setIngredient] = useState("");
+  const [item, setItem] = useState();
   return (
     <>
       <header className="head">
@@ -8,8 +12,15 @@ export function Header(props) {
       <hr />
       <form action="#" method="POST" className="form">
         <input type="text" placeholder="e.g. oregano" />
-        <button>+ Add ingredient</button>
+        <button
+          onSubmit={() => {
+            handleIngredients();
+          }}
+        >
+          + Add ingredient
+        </button>
       </form>
+      <ul></ul>
     </>
   );
 }

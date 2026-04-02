@@ -17,6 +17,6 @@ input {
 button {
   background-color: rgb(5, 5, 5);
   color: white;
-  border-radius: 2rem;
+  border-radius: 1rem;
   width: 10rem;
 }
